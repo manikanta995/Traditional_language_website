@@ -1,0 +1,58 @@
+body {
+    position: absolute;
+    background-repeat: no-repeat;
+    margin: auto;
+    background-image:linear-gradient(rgb(245, 233, 233),rgb(240, 230, 230)), url(images/bg3.png);
+    background-size: cover; 
+    scroll-padding: 200 px;
+     }
+
+    
+
+.a{
+  width: 150px;
+  padding-top: 200px;
+  padding-left: 30px;
+}
+
+.b{
+  width: 150px;
+  padding-top: 200px;
+  padding-left: 60px;
+}
+
+.c{
+  width: 150px;
+  padding-top: 200px;
+  padding-left: 70px;
+}
+
+.d{
+  width: 150px;
+  padding-top: 200px;
+  padding-left: 70px;
+}
+
+.e{
+  width: 150px;
+  padding-top: 200px;
+  padding-left: 70px;
+}
+
+.f{
+  width: 150px;
+  padding-top: 200px;
+  padding-left: 70px;
+}
+
+.g{
+  width: 150px;
+  padding-top: 200px;
+  padding-left: 55px;
+}
+
+.btn{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   }

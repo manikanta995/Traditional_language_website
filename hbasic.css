@@ -1,0 +1,152 @@
+
+
+  body {
+    position: absolute;
+    background-repeat: no-repeat;
+    margin: auto;
+    background-image:linear-gradient(rgb(245, 233, 233),rgb(240, 230, 230)), url(images/bg1.png);
+    background-size: cover; 
+    scroll-padding: 200 px;
+     }
+
+    
+
+.a{
+  width: 150px;
+  padding-top: 190px;
+  padding-left: 30px;
+}
+
+.b{
+  width: 150px;
+  padding-top: 190px;
+  padding-left: 65px;
+}
+
+.c{
+  width: 150px;
+  padding-top: 190px;
+  padding-left: 70px;
+}
+
+.d{
+  width: 150px;
+  padding-top: 190px;
+  padding-left: 65px;
+}
+
+.e{
+  width: 150px;
+  padding-top: 190px;
+  padding-left: 65px;
+}
+
+.f{
+  width: 150px;
+  padding-top: 190px;
+  padding-left: 70px;
+}
+
+.g{
+  width: 150px;
+  padding-top: 190px;
+  padding-left: 65px;
+}
+
+.h{
+  width: 150px;
+  padding-top: 150px;
+  padding-left: 30px;
+}
+
+.i{
+  width: 150px;
+  padding-top: 150px;
+  padding-left: 60px;
+}
+
+.j{
+  width: 150px;
+  padding-top: 150px;
+  padding-left: 65px;
+}
+
+.k{
+  width: 150px;
+  padding-top: 150px;
+  padding-left: 72px;
+}
+
+.l{
+  width: 150px;
+  padding-top: 150px;
+  padding-left: 70px;
+}
+
+.m{
+  width: 150px;
+  padding-top: 150px;
+  padding-left: 65px;
+}
+
+.n{
+  width: 150px;
+  padding-top: 150px;
+  padding-left: 65px;
+}
+
+.o{
+  width: 150px;
+  padding-top: 162px;
+  padding-left: 30px;
+}
+
+.p{
+  width: 150px;
+  padding-top: 162px;
+  padding-left: 60px;
+}
+
+.q{
+  width: 150px;
+  padding-top: 162px;
+  padding-left: 70px;
+}
+
+.r{
+  width: 150px;
+  padding-top: 162px;
+  padding-left: 70px;
+}
+
+.s{
+  width: 150px;
+  padding-top: 162px;
+  padding-left: 70px;
+}
+
+.t{
+  width: 150px;
+  padding-top: 162px;
+  padding-left: 60px;
+}
+
+.u{
+  width: 150px;
+  padding-top: 162px;
+  padding-left: 70px;
+}
+
+.btn{
+ text-align: center;
+ padding-top: 5px;
+ border: none;
+ 
+}
+.btn-1{
+  background-image: linear-gradient(to left,#FFC312,#EE5A24,#FFC312);
+}
+
+.btn-2{
+  background-image: linear-gradient(to left,#FFC312,#EE5A24,#FFC312);
+}

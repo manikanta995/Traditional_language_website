@@ -1,0 +1,37 @@
+body{
+
+  background-image:url(images/2.png);  
+  background-size: cover;
+  
+
+  }
+
+.v{
+  width: 150px;
+  padding-top: 187px;
+  padding-left: 250px;
+}
+.w{
+  width: 150px;
+  padding-top: 187px;
+  padding-left: 48px;
+}  
+.x{
+  width: 150px;
+  padding-top: 187px;
+  padding-left: 55px;
+}  
+.y{
+  width: 150px;
+  padding-top: 187px;
+  padding-left: 58px;
+}  
+.z{
+  width: 150px;
+  padding-top: 187px;
+  padding-left: 60px;
+}  
+.btn{
+  text-align: center;
+  padding-top: 430px;
+}

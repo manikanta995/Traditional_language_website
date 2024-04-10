@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equive="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="video.css">
+   
+</head>
+    <body>
+        <h3 class="heading"><u> video lecture</u></h3>
+        
+        <div class="container">
+            <div class="main-video">
+                <div class="video">
+                    <video src="vid/m1.mp4" controls muted autoplay></video>
+                    <h3 class="title">01. Lecture 1</h3>
+        </div>
+            </div>
+           
+            <div class="video-list">
+                <div class="vid active">
+                    <video src="vid/m1.mp4" muted></video>
+                    <h3 class="title">01. Lecture 1</h3>
+        </div>
+                <div class="vid">
+                    <video src="vid/m2.mp4" muted></video>
+                    <h3 class="title">02. Lecture 2</h3>
+        </div>
+                <div class="vid">
+                    <video src="vid/m3.mp4" muted></video>
+                    <h3 class="title">03. Lecture 3</h3>
+        </div>
+                <div class="vid">
+                    <video src="vid/m4.mp4" muted></video>
+                    <h3 class="title">04. Lecture 4</h3>
+        </div>
+                <div class="vid">
+                    <video src="vid/m5.mp4" muted></video>
+                    <h3 class="title">05. Lecture 5</h3>
+        </div>  
+            </div>    
+           
+        </div>
+        <div class="btn">
+
+            <a href="marathi.html"><button type="submit" >  Back </button></a>
+    
+        
+          </div>
+        <script>
+           
+        let listvideo = document.querySelectorAll('.video-list .vid');
+        let mainvideo = document.querySelector('.main-video video');
+        let title = document.querySelector('.main-video .title');
+       
+        listvideo.forEach(video =>{
+           video.onclick = () =>{
+             listvideo.forEach(vid => vid.classList.remove('active'));
+               video.classList.add('active');
+               if(video.classList.contains('active')){
+                   let src= video.children[0].getAttribute('src');
+                   mainvideo.src = src;
+                   let text = video.children[1].innerHTML;
+                   title.innerHTML = text;
+               };
+           };
+        });
+           
+        </script>
+       
+    </body>
+</html>
